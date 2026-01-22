@@ -21,21 +21,24 @@
 
 
 <body>
+
+
+  <div id="test"  class="test"   >Hello</div>
     
 
     <div style="display: flex;justify-content: space-around;">
       
     <div style="background-color: lightblue; width: 200; color: rgb(10, 10, 9);" >
-        <img src="product-photo-1.png" height="200px" alt="" width="200px">
+        <img src="productphoto.png" height="200px" alt="" width="200px">
         <h3 >Settings Image</h3>
         <p >This is description for settings image</p>
     </div>
 
 
        <div style="background-color: lightblue; width: 200; color: rgb(10, 10, 9);" >
-        <img src="product-photo-1.png" height="200px" alt="" width="200px">
+        <img src="productphoto.png" height="200px" alt="" width="200px">
         <h3  >Settings Image</h3>
-        <p >This is description for settings image</p>
+        <p  id="test2" >This is description for settings image</p>
     </div>
 
     </div>
@@ -45,8 +48,11 @@
     <script>
 
 
-   let name = prompt("What is your name?")
-   alert("Hi, your name is " + name)
+  document.getElementById("test").style.fontSize = "120px";
+    document.getElementById("test2").style.fontSize = "120px";
+
+  //  let name = prompt("What is your name?")
+  //  alert("Hi, your name is " + name)
 
 
 
